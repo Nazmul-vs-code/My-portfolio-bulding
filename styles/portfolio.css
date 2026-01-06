@@ -35,6 +35,7 @@
 .section-heading{
      max-width: 827px;
      text-align: center;
+     margin: 0 auto;
 }
 
 .section-heading h2 {
@@ -145,4 +146,31 @@ a {
 
 .info-card h4 {
     font-size: 20px;
+}
+
+#skill {
+    padding: 130px;
+}
+
+.skills-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    height: 70%;
+}
+
+.skill-card {
+    box-shadow: 10px 10px 5px black;
+    text-align: left;
+    padding: 10px;
 }
