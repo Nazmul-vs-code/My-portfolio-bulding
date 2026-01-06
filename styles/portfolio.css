@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* share style */
+.font-science-gothic {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 35px;
+}
+
+.logo h2{
+    color: rgb(45, 30, 30);
+    font-weight: 900;
+}
+
+.color-orange{
+    color: #FD6E0A;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* main style */
+header {
+    background-color: #ec8d4a56;
+    padding-top: 50px;
+}
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 62px;
+    font-size: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
